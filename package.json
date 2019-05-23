@@ -1,6 +1,6 @@
 {
   "name": "recents",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Welcome users to Atom with a tab containing their recent projects",
   "main": "./lib/main",
   "repository": "https://github.com/sht/recents",
