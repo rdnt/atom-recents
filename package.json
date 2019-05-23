@@ -1,0 +1,40 @@
+{
+  "name": "recents",
+  "version": "0.1.0",
+  "description": "Welcome users to Atom with a tab containing their recent projects",
+  "main": "./lib/main",
+  "repository": "https://github.com/sht/recents",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "lint": "standard"
+  },
+  "consumedServices": {
+    "metrics-reporter": {
+      "versions": {
+        "^1.1.0": "consumeReporter"
+      }
+    }
+  },
+  "configSchema": {
+    "showOnStartup": {
+      "type": "boolean",
+      "default": true,
+      "description": "Show recent projects tab when launching Atom."
+    }
+  },
+  "dependencies": {
+    "atom-project-util": "^4.2.0",
+    "etch": "0.9.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  }
+}

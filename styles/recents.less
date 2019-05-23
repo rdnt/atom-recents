@@ -1,0 +1,84 @@
+@import "octicon-mixins";
+@import "ui-variables";
+
+.landing {
+    user-select: none;
+    .col {
+        position: relative;
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+    .logo-container {
+        box-shadow: 1px 0 @base-border-color;
+		.inner {
+            position: absolute;
+			width: 100%;
+            top: 50%;
+            left: 50%;
+			padding: 40px;
+			text-align: center;
+            transform: translate(-50%, -50%);
+			svg.logo {
+				max-width: 100%;
+				margin: 40px 0;
+			}
+			.logo-subtitle {
+				color: @text-color-info;
+				cursor: default;
+				line-height: 1.4;
+			}
+		}
+
+    }
+    .projects {
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 100%;
+        overflow-y: auto;
+		height: auto;
+        .projects-header {
+            font-size: 1.6em;
+            text-align: center;
+            line-height: 1.5;
+            margin: 2em 0;
+			color: @text-color-subtle;
+			cursor: default;
+        }
+        .project-card {
+            margin: 1em 15%;
+            font-size: 1.1em;
+            font-weight: 300;
+            line-height: 1.4;
+            cursor: pointer;
+            user-select: none;
+            border-radius: @component-border-radius*2;
+            border: 1px solid @base-border-color;
+            background-color: lighten(@base-background-color, 3%);
+            &:hover {
+              color: lighten(@text-color, 8%);
+            }
+            &::-webkit-details-marker {
+              display: none
+            }
+            &:before {
+              width: 20px;
+              color: @text-color-subtle;
+            }
+            &:last-child {
+                margin-bottom: 60px;
+            }
+            .project-info {
+                font-size: 1.6rem;
+                line-height: 1.6;
+            	white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding: .6em 1.2em .7em 1.2em;
+                &:before {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

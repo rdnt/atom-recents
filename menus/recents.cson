@@ -1,0 +1,6 @@
+'menu': [
+  'label': 'Help'
+  'submenu': [
+    {'label': 'Recent Projects', 'command': 'recents:show'}
+  ]
+]
