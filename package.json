@@ -1,7 +1,7 @@
 {
   "name": "recents",
   "version": "1.0.0",
-  "description": "Welcome users to Atom with a tab containing their recent projects",
+  "description": "View your recent projects on Atom's startup",
   "main": "./lib/main",
   "repository": "https://github.com/sht/recents",
   "license": "MIT",
