@@ -1,6 +1,14 @@
 'menu': [
-  'label': 'Help'
-  'submenu': [
-    {'label': 'Recent Projects', 'command': 'recents:show'}
-  ]
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Recents'
+      'submenu': [
+        {
+          'label': 'View Recents'
+          'command': 'recents:view'
+        }
+      ]
+    ]
+  }
 ]

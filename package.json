@@ -11,6 +11,9 @@
   "scripts": {
     "lint": "standard"
   },
+  "deserializers": {
+    "RecentsView": "createView"
+  },
   "consumedServices": {
     "metrics-reporter": {
       "versions": {
