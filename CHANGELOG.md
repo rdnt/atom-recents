@@ -9,11 +9,11 @@
 ## v1.1.0
 - Bump debug from 2.6.8 to 2.6.9 (Removes ReDoS regexp in %o formatter)
 
-## v1.2.0
+## v1.3.0
  - Fix duplicate pane issues
  - Match background-color of the view with the editor's
  - Async fixes
  - Code Cleanup
 
-## v1.2.1
+## v1.3.1
  - Updated README
