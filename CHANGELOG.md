@@ -14,3 +14,6 @@
  - Match background-color of the view with the editor's
  - Async fixes
  - Code Cleanup
+
+## v1.2.1
+ - Updated README
