@@ -6,9 +6,10 @@ Adds a tab to your favorite editor showing you your most recent projects.
 Recents can be openned from the command palette's action `Recents: View`, from the menu bar by going to `Packages -> Recents -> View Recents`, or by using the `Alt-R` keyboard shortcut.
 Recents will open by default on Atom's startup. This behavior can be toggled in the package's settings.
 
-Preview:
+Previews:
 
 ![Recents](https://raw.githubusercontent.com/SHT/recents/master/assets/preview.png)
+![Recents](https://raw.githubusercontent.com/SHT/recents/master/assets/preview_light.png)
 
 ## Contributing
 You are free (and actively encouraged!) to contribute to this project by either implementing code, creating issues, reporting bugs, highlighting vulnerabilities, or proposing improvements.
