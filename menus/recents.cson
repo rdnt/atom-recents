@@ -5,7 +5,7 @@
       'label': 'Recents'
       'submenu': [
         {
-          'label': 'View Recents'
+          'label': 'View'
           'command': 'recents:view'
         }
       ]
