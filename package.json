@@ -1,6 +1,6 @@
 {
   "name": "recents",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "View/open your recent projects on Atom's startup",
   "main": "./lib/main",
   "repository": "https://github.com/sht/atom-recents",
