@@ -4,6 +4,8 @@
 #atom-recents.landing {
   user-select: none;
   background-color: @base-background-color;
+  display:flex;
+  align-items: center;
   .col {
     position: relative;
     height: 100%;
@@ -11,15 +13,19 @@
     float: left;
   }
   .logo-container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
     box-shadow: 1px 0 @base-border-color;
+	display:flex;
+    align-items: center;
+	justify-content:center;
     .inner {
       position: absolute;
       width: 100%;
-      top: 50%;
-      left: 50%;
       padding: 40px;
       text-align: center;
-      transform: translate(-50%, -50%);
       svg.logo {
         max-width: 100%;
         margin: 40px 0;
@@ -32,8 +38,9 @@
     }
   }
   .projects {
-    top: 50%;
-    transform: translateY(-50%);
+    width: 100%;
+	padding-left: 50%;
+	box-sizing: border-box;
     max-height: 100%;
     overflow-y: auto;
     height: auto;
