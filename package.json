@@ -61,7 +61,7 @@
   "name": "recents",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sht/atom-recents.git"
+    "url": "https://github.com/sht/atom-recents"
   },
   "scripts": {
     "lint": "standard"
