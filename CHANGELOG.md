@@ -21,7 +21,7 @@
 # v1.3.2
  - Update previews
 
-# v1.4.0
+# v1.5.0
  - Update dependencies
  - Only show recents on startup if Atom is launched without a project
  - Make entire recents container scrollable
