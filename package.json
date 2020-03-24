@@ -1,18 +1,35 @@
 {
-  "name": "recents",
-  "version": "1.4.1",
-  "description": "View your recent projects on Atom's startup",
-  "main": "./lib/main",
-  "repository": "https://github.com/sht/atom-recents",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "_from": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+  "_id": "recents@1.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-DvHgALgNJkn5AC9b0Zuknd1tN+JcYzUq7k1Sc93z1rXfgNpvKOvRdsmMGbO9VtQtWTz4QlXyWpSCyaGojJYlCw==",
+  "_location": "/recents",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball"
   },
-  "scripts": {
-    "lint": "standard"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+  "_shasum": "8bcd7cccfc8e565e45e8d6ee872465faa64632bb",
+  "_spec": "https://www.atom.io/api/packages/recents/versions/1.4.1/tarball",
+  "_where": "C:\\Users\\Tasos\\AppData\\Local\\Temp\\apm-install-dir-2020223-5240-1g7g5nr.oiv8",
+  "bugs": {
+    "url": "https://github.com/sht/atom-recents/issues"
   },
-  "deserializers": {
-    "RecentsView": "createView"
+  "bundleDependencies": false,
+  "configSchema": {
+    "showOnStartup": {
+      "type": "boolean",
+      "default": true,
+      "description": "Show recent projects tab when launching Atom."
+    }
   },
   "consumedServices": {
     "metrics-reporter": {
@@ -21,25 +38,38 @@
       }
     }
   },
-  "configSchema": {
-    "showOnStartup": {
-      "type": "boolean",
-      "default": true,
-      "description": "Show recent projects tab when launching Atom."
-    }
-  },
   "dependencies": {
     "atom-project-util": "^4.2.0",
-    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-standard": "^4.0.1",
     "etch": "0.14.0"
   },
+  "deprecated": false,
+  "description": "View your recent projects on Atom's startup",
+  "deserializers": {
+    "RecentsView": "createView"
+  },
   "devDependencies": {
-    "standard": "^14.3.1"
+    "standard": "^14.3.3"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sht/atom-recents#readme",
+  "license": "MIT",
+  "main": "./lib/recents",
+  "name": "recents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sht/atom-recents.git"
+  },
+  "scripts": {
+    "lint": "standard"
   },
   "standard": {
     "globals": [
       "atom"
     ]
-  }
+  },
+  "version": "1.4.1"
 }
